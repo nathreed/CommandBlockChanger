@@ -1,0 +1,46 @@
+{
+	"meta": {
+		"name": "Name of the Map",
+		"author": "nathreed",
+		"version": "1.0",
+		"id": "provisionedMapId"
+	},
+	"changes": 
+		[
+			{
+				"x": 145,
+				"y": 76,
+				"z": 74,
+				"Command": "tell @a GlobalRandom:%globalValue1%"
+			},
+			{
+				"x": 145,
+				"y": 76,
+				"z": 72,
+				"Command": "tell @a Static:%staticValue1%"
+			},
+			{
+				"x": 147,
+				"y": 76,
+				"z": 72,
+				"Command": "tell @a GlobalRandom:%globalValue1%"
+			},
+			{
+				"x": 147,
+				"y": 76,
+				"z": 74,
+				"Command": "tell @a Static:%staticValue2%"
+			},
+			{
+				"x": 149,
+				"y": 76,
+				"z": 75,
+				"Command": "tell @a NonGlobalRandom:%randomValue1%"
+			}
+		],
+	"values": {
+		"randomValues": ["randomValue1"],
+		"staticValues": [{"key": "staticValue1", "replaceWith": "STATIC VALUE 1"}, {"key": "staticValue2", "replaceWith":"STATIC VALUE 2"}],
+		"globalRandomValues": ["globalValue1"]
+	}
+}
