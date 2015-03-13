@@ -2,7 +2,7 @@
 Customizes command blocks in a Minecraft world.
 
 #Uses
-This program doesn't really have many uses as-is. It doesn't do anything with the values it generates for the command blocks other than putting them in the command blocks. The original idea for the use of this was to customize an adventure map upon download and store the random values in a database to enable the setting and retrieval of map passwords (via scoreboard values) that were unique on each download of the map (to prevent someone just putting all the passwords on a website somewhere). This would add an interesting new layer to playing adventure maps, as the map maker could make the player do some online interaction in order to get the password to the next part of the map. This has not yet been implemented.
+This program doesn't really have many uses as-is. It doesn't do anything with the values it generates for the command blocks other than putting them in the command blocks. The original idea for the use of this was to customize an adventure map upon download from a specialized site and store the random values in a database to enable the setting and retrieval of map passwords (via scoreboard values) that were unique on each download of the map (to prevent someone just putting all the passwords on a website somewhere). This would add an interesting new layer to playing adventure maps, as the map maker could make the player do some online interaction in order to get the password to the next part of the map. This has not yet been implemented.
 
 
 #Installation  
