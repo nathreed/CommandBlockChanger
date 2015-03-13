@@ -9,7 +9,7 @@ This program doesn't really have many uses as-is. It doesn't do anything with th
 To install all dependencies, simply run `npm install`.  
 
 #Running  
-Invoke the program with `node index.js ~/path/to/minecraft/world/folder`, specifying the path to your Minecraft world folder inside Minecraft's `saves` folder. The program will read `map.mapmeta`, make the changes to your world specified in it, and exit.  
+Invoke the program with `node index.js ~/path/to/minecraft/world/folder`, specifying the path to your Minecraft world folder inside Minecraft's `saves` folder. The program will read `map.mapmeta` in its directory, make the changes to your world specified in it, and exit.  
 
 #mapmeta file format  
 The mapmeta file is simply a JSON file that tells the program which command blocks to change. It has 2 sections, the `changes` section and the `values` section.  
