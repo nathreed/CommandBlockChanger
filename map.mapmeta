@@ -1,10 +1,4 @@
 {
-	"meta": {
-		"name": "Name of the Map",
-		"author": "nathreed",
-		"version": "1.0",
-		"id": "provisionedMapId"
-	},
 	"changes": 
 		[
 			{
