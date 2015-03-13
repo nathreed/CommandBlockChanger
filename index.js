@@ -46,6 +46,7 @@ function next() {
 				var commandString = blockChangeQueue[0].Command;
 				var variableInString = commandString.split("%")[1];
 				var valueOfVariable = utils.valueForKey(mapMetaInfo, variableInString, globalRandomValues);
+				//THIS IS WHERE YOU WOULD STORE THE VALUE OF THE VARIABLE TO A DATABASE OR SOMETHING TO PERMIT FOR LATER RETRIEVAL
 				var valueForCommandString;
 				//Checking if we got updated global random values in addition to our value
 				if(valueOfVariable.updatedGlobalRandomVals) {
